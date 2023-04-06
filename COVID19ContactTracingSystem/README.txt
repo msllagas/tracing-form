@@ -1,0 +1,4 @@
+--Execute the sql file (tracer.sql) located in the root folder, on your workbench to create database needed for the project
+--On Config.java located in COVID19 Contact Tracer/src/Databases, change the fields depending on your database's description(e.g. host, port,user,password)
+--If you encounter a ClassNotFoundException:com.mysql.cj.jdbc.Driver, please make sure that you add a jdbc driver on your library
+--If the problems persist, try to remove “?serverTimeZone=EST” on line 22 under DBHandler.java on COVID19 Contact Tracer/src/Databases.
